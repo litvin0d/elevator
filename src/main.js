@@ -14,7 +14,7 @@ setInterval(() => {
 
 // обработчик события 
 const elevator = event => {
-    const elevator = document.querySelector(".elevator");
+    const elevator = document.querySelector("#elevator");
     const destination = +event.target.innerText; // получение номера этажа
     event.target.classList.add("call-active"); // подсвечивание кнопки при вызове
 

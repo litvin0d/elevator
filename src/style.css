@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-.call {
+button {
     font-size: 14px;
     padding: 6px 9px;
     margin-bottom: 24px;
@@ -46,7 +46,7 @@
     border: 2px solid red;
 }
 
-.elevator {
+#elevator {
     background: #dcdcdc;
     border: 2px solid #4e4e4e;
     width: 90%;
