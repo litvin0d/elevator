@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./src/style.css" />
+        <link rel="stylesheet" href="style.css" />
         <title>Elevator</title>
     </head>
     <body>
         <div class="building">
-            <div class="floor">
-                <div class="entry"></div>
-                <button class="call">4</button>
-            </div>
-            <div class="floor">
-                <div class="entry"></div>
-                <button class="call">3</button>
-            </div>
-            <div class="floor">
-                <div class="entry"></div>
-                <button class="call">2</button>
-            </div>
-            <div class="floor">
-                <div class="entry"><div id="elevator"></div></div>
-                <button>1</button>
+            <div class="floors">
+                <div class="floor">
+                    <div class="shaft"></div>
+                    <div class="btn-wrapper">
+                        <button class="btn floor-4">4</button>
+                    </div>
+                </div>
+                <div class="floor">
+                    <div class="shaft"></div>
+                    <div class="btn-wrapper">
+                        <button class="btn floor-3">3</button>
+                    </div>
+                </div>
+                <div class="floor">
+                    <div class="shaft"></div>
+                    <div class="btn-wrapper">
+                        <button class="btn floor-2">2</button>
+                    </div>
+                </div>
+                <div class="floor">
+                    <div class="shaft"></div>
+                    <div class="btn-wrapper">
+                        <button class="btn">1</button>
+                    </div>
+                    <div class="elevator"></div>
+                </div>
             </div>
         </div>
-
-        <script src="./src/elevator.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
