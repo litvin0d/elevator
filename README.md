@@ -1,9 +1,9 @@
 # Elevator Simulation
 
-<img src="/img/screenshot.png" alt="screenshot">
-
 Простой сайт с симуляцией лифта, реализованный на HTML, CSS и чистом JavaScript. Он позволяет имитировать поведение
 лифта в здании с несколькими этажами.
+
+<img src="/img/screenshot.png" alt="screenshot">
 
 ## Начало работы
 
@@ -11,6 +11,6 @@
 
 Также вы можете склонировать репозиторий на свой компьютер с помощью следующей команды:
 
-`git clone https://github.com/litvin0d/elevator.git`
+```git clone https://github.com/litvin0d/elevator.git```
 
 Затем перейдите в склонированную папку и откройте файл `index.html` в вашем браузере.
